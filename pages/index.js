@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import { useState, useEffect } from 'react';
 import { transformNamespace } from 'i18next-v4-format-converter';
-import { CopyToClipboard } from './CopyToClipboard';
-import { download } from './utils';
-import { useFileReader } from './useFileReader';
+import { CopyToClipboard } from '../components/CopyToClipboard';
+import { download } from '../components/utils';
+import { useFileReader } from '../components/useFileReader';
 
 const DUMMY_JSON = `{
   "key": "value",
