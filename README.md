@@ -1,3 +1,3 @@
 ## Getting Started
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to use the converter.
+Open [https://i18next.github.io/i18next-v4-format-converter-web/](https://i18next.github.io/i18next-v4-format-converter-web/) with your browser to use the converter.
