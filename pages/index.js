@@ -102,6 +102,13 @@ export default function Home() {
             }}>download</button>
           </div>
         </div>
+        <div style={{ padding: 10, marginTop: 50 }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start', padding: '0px 30px'}}>
+            <div style={{ display: 'flex', alignItems: 'center'}}>
+              <i>Have a look at <strong><a href="https://github.com/i18next/i18next-v4-format-converter">i18next-v4-format-converter</a></strong> if you want to use this converter as CLI or programmatically.</i>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
