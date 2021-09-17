@@ -41,7 +41,7 @@ export default function Home() {
 
     try {
       setTargetJSON(convert(lng, value));
-      if (err) setError('');
+      if (err) setErr('');
     } catch (e) {
       setErr(e.toString());
     }
