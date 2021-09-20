@@ -24,7 +24,7 @@ export default function Home() {
   const [targetJSON, setTargetJSON] = useState(convert('en', DUMMY_JSON));
 
   useEffect(() => {
-    if (result) setSourceJSON(result);
+    if (result) handleChange(result);
     if (file && file.name) {
       const p = file.name.split('.');
       if (p.length > 2) {
