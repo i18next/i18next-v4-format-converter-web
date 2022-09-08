@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import { useState, useEffect } from 'react';
 import { transformNamespace } from 'i18next-v4-format-converter';
-import { CopyToClipboard } from '../components/CopyToClipboard';
 import { download } from '../components/utils';
 import { useFileReader } from '../components/useFileReader';
 
@@ -95,8 +94,7 @@ export default function Home() {
             <label htmlFor="contained-button-file" className="conv-btn" style={{ marginRight: 5 }} >upload file</label>
             <input id="contained-button-file" type="file" onChange={handleFileChange} style={{ display: 'none' }} />
           </div>
-          <div style={{ width: '50%', padding: 10 }}>
-            <CopyToClipboard text={targetJSON} />
+          <div style={{ padding: 10 }}>
             <button className="conv-btn" style={{ marginLeft: 5 }} onClick={() => {
               download(file ? file.name : `translation.${lng}.JSON`, targetJSON)
             }}>download</button>
