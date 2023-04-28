@@ -67,6 +67,7 @@ export default function Home() {
           <div style={{ display: 'flex', alignItems: 'center', width: '80%', backgroundColor: '#f7f7f7', borderRadius: 15, padding: '25px 50px'}}>
             <img src="./i18next.png" style={{ width: 90, height: 90, marginRight: 30 }} />
             <h2 style={{ color: '#009688' }}>Convert your i18next JSON files from V3 to V4 format.</h2>
+            <i style={{ marginLeft: 12, fontSize: 11, color: '#686868' }}>(It will only handle keys with the default pluralSeparator <code>_</code>)</i>
           </div>
         </div>
 
